@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ff6f61;
+    border-radius: 10px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller header for mobile */
+    }
+
+    section {
+        padding: 15px; /* Smaller padding for sections */
+    }
+
+    footer {
+        padding: 10px; /* Smaller footer padding */
+    }
+}
+video {
+    max-width: 100%;        /* Makes the video responsive */
+    height: auto;           /* Maintains aspect ratio */
+    border-radius: 10px;    /* Rounds the corners */
+    margin: 10px 0;         /* Adds space above and below the video */
+    display: block;          /* Ensures video is displayed as a block element */
+    margin-left: auto;       /* Centers the video horizontally */
+    margin-right: auto;      /* Centers the video horizontally */
+}
